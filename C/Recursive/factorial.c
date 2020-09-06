@@ -12,8 +12,8 @@ int my_factorial(int num)
 
 int main(void)
 {
-    printf("-2! = ", factorial(-2));
-    printf("0!  = ", factorial(0));
-    printf("1!  = ", factorial(1));
-    printf("10! = ", factorial(10));
+    printf("-2! = ", my_factorial(-2));
+    printf("0!  = ", my_factorial(0));
+    printf("1!  = ", my_factorial(1));
+    printf("10! = ", my_factorial(10));
 }
